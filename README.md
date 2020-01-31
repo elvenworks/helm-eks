@@ -2,7 +2,7 @@
 
 Supported tags and release links
 
-* [3.0.3](https://github.com/dtzar/helm-kubectl/releases/tag/3.0.3) - helm v3.0.3, kubectl v1.17.2, aws-iam-authenticator v.0.5.0 alpine 3.11
+* [3.0.3](https://github.com/elvenworks/helm-eks/releases/tag/3.0.3) - helm v3.0.3, kubectl v1.17.2, aws-iam-authenticator v.0.5.0 alpine 3.11
 
 ## Overview
 
