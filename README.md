@@ -12,6 +12,7 @@ This lightweight alpine docker image provides kubectl and helm binaries for work
 
 Example for use with personal administration or troubleshooting with volume mount for kubeconfig and aws files:  
 `docker run -ti --rm -v ~/.aws -v ~/.kube:/root/.kube elvenworks/helm-eks:latest `  
+
 The -v maps your host docker machine Kubernetes configuration directory (~/.kube) to the container's Kubernetes configuration directory (root/.kube). Same for aws config files to authenticate with your kubernetes cluster on EKS (AWS). Directory (~/.aws) the container's Kubernetes configuration directory (root/.aws).
 
 ## Build
